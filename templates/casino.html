@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Казино</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='casino.js') }}"></script>
+</head>
+<body>
+    <div class="casino">
+        <h2>Казино</h2>
+        <button onclick="spin()">Играть (100 монет)</button>
+        <div id="result"></div>
+    </div>
+    <div class="tabs">
+        <a href="/casino" class="tab">Казино</a>
+        <a href="/referral" class="tab">Рефералы</a>
+        <a href="/collect" class="tab">Сбор монет</a>
+        <a href="/news" class="tab">Новости</a>
+        <a href="/balance" class="tab">Баланс</a>
+    </div>
+</body>
+</html>

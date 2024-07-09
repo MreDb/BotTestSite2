@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Новости</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="news">
+        <h2>Новости</h2>
+        <div id="youtube-posts">
+            <!-- Здесь будут отображаться посты с YouTube -->
+        </div>
+    </div>
+    <div class="tabs">
+        <a href="/casino" class="tab">Казино</a>
+        <a href="/referral" class="tab">Рефералы</a>
+        <a href="/collect" class="tab">Сбор монет</a>
+        <a href="/news" class="tab">Новости</a>
+        <a href="/balance" class="tab">Баланс</a>
+    </div>
+</body>
+</html>
